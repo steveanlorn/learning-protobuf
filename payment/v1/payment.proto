@@ -2,6 +2,9 @@ syntax = "proto3";
 
 package payment.v1;
 
+// The go_package option defines the import path of the package 
+// which will contain all the generated code for this file. 
+// The Go package name will be the last path component of the import path.
 option go_package = "github.com/steveanlorn/learning-protobuf/gen/go/payment/v1;paymentpb";
 
 enum PaymentProvider {
