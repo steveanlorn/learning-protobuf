@@ -15,6 +15,8 @@ Protocol buffers are a combination of:
 3. Language-specific runtime libraries
 4. The serialization format for data that is written to a file (or sent across a network connection)
 
+![Protobuf Flow](protobuf_flow.png)
+
 ### Proto File
 Source: https://developers.google.com/protocol-buffers/docs/proto3
 
