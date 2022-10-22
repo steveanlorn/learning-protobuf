@@ -58,9 +58,9 @@ protoc --proto_path=src --go_out=out --go_opt=paths=source_relative foo.proto ba
     ```
     version: v1
     plugins:
-    - name: go
-        out: gen/go
-        opt: paths=source_relative
+      - name: go
+          out: gen/go
+          opt: paths=source_relative
     ```
 3. Run command `buf lint` to lint the protobuf
 4. Run `buf generate` to generate the code
